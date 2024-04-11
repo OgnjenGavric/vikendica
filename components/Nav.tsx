@@ -4,9 +4,7 @@
 import Image from "next/image";
 import { useState } from "react";
 
-import logo from "@/assets/images/logo-ml.svg";
 import Link from "next/link";
-import { IoIosArrowDown } from "react-icons/io";
 
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -29,7 +27,7 @@ export default function Nav() {
       <section ref={animationParent} className="flex items-center gap-10">
         {/* logo */}
         <div className='flex justify-center items-center'>
-          <Image src={logo} alt="logo M&L" width={40} height={40} /><span className='bold-32 text-green-70 lg:bold-40'><em className='text-green-30'>M&L</em><small>vikendica</small></span>
+          <Image src="/logo-ml.svg" alt="logo M&L" width={40} height={40} /><span className='bold-32 text-green-70 lg:bold-40'><em className='text-green-30'>M&L</em><small>vikendica</small></span>
         </div>
         {isSideMenuOpen && <MobileNav closeSideMenu={closeSideMenu} />}
         <div className="hidden md:flex items-center gap-4 transition-all">
