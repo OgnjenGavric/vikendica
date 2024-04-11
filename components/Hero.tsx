@@ -16,7 +16,11 @@ const Hero = () => {
           Vikendica "M&L" nudi idiličan odmor na obali rijeke Sane u Gaćanima, nedaleko od Prijedora. Savršena je za opuštanje u prirodi i uživanje u miru i tišini. Vikendica je opremljena za boravak do 4 osobe i nudi sve što vam je potrebno za udoban boravak. 
         </p>
 
-        <div className="my-11 flex flex-col flex-wrap gap-5">
+        <Link 
+          href="https://maps.app.goo.gl/pCWgJxXjiodRRmWn9" 
+          target='_blank'
+          className="my-11 flex flex-col flex-wrap gap-5"
+        >
           <div className="flex items-center gap-2">
             {Array(5).fill(1).map((_, index) => (
               <Image 
@@ -28,11 +32,10 @@ const Hero = () => {
               />
             ))}
           </div>
-
           <p className="bold-16 lg:bold-20 text-green-70">
             2.8k<span className="regular-16 lg:regular-20 ml-1">odličnih komentara</span>
           </p>
-        </div>
+        </Link>
 
         <div className="flex flex-col w-full gap-3">
           <Link href="tel:+38765688948">
