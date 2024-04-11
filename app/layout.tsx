@@ -13,8 +13,6 @@ export const metadata: Metadata = {
   }
 }
 
-export const openGraphImage = { images: ['/logo-ml.svg'] }
-
 export default function RootLayout({
   children,
 }: {
