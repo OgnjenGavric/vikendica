@@ -64,7 +64,7 @@ const Hero = () => {
       
         <div className="relative z-20 flex">
           <Image 
-            src="/logo-ml.svg"
+            src="/logo-ml.png"
             alt="camp"
             width={200}
             height={200}
