@@ -13,14 +13,14 @@ export const metadata: Metadata = {
     description:
       "Vikendica M&L nudi idiličan odmor na obali rijeke Sane u Gaćanima, nedaleko od Prijedora",
     url: "https://vikendica.vercel.app/",
-    images: 'https://vikendica.vercel.app/logo-ml.svg',
+    images: 'https://vikendica.vercel.app/logo-ml.png',
   },
   twitter: {
     card: "summary_large_image",
     title: "Vikendica M&L | Vikendica na Sani",
     description:
       "Vikendica M&L nudi idiličan odmor na obali rijeke Sane u Gaćanima, nedaleko od Prijedora",
-    images: "https://vikendica.vercel.app/logo-ml.svg",
+    images: "https://vikendica.vercel.app/logo-ml.png",
   },
 }
 
