@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import './globals.css'
 import Footer from '@/components/Footer';
@@ -20,6 +21,7 @@ export default function RootLayout({
         <Nav />
         <main className="relative overflow-hidden">
           {children}
+          <SpeedInsights />
         </main>
         <Footer />
       </body>
