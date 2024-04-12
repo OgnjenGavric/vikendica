@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/react';
 
 import './globals.css'
 import Footer from '@/components/Footer';
@@ -22,6 +23,7 @@ export default function RootLayout({
         <main className="relative overflow-hidden">
           {children}
           <SpeedInsights />
+          <Analytics />
         </main>
         <Footer />
       </body>
